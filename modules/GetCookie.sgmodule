@@ -1,0 +1,17 @@
+#!name=Get cookie. By Svend
+#!desc=该模块适用于定时签到脚本的Cookie获取. 集成: 京东, 您可以在使用后手动将其禁用，以免产生不必要的MITM.
+#!system=ios
+
+[Script]
+京东签到Cookie = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+什么值得买签到Cookie = type=http-request,pattern=^https:\/\/www\.smzdm\.com\/?.?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.cookie.js
+中国联通签到Cookie = type=http-request,pattern=^https:\/\/act.10010.com\/SigninApp\/signin\/querySigninActivity.htm,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js
+中国联通签到Cookie = type=http-request,pattern=^https:\/\/act.10010.com\/SigninApp(.*?)\/signin\/daySign,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js
+中国联通签到Cookie = type=http-request,pattern=^https:\/\/m.client.10010.com\/dailylottery\/static\/(textdl\/userLogin|active\/findActivityInfo),script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js
+# 注意获取Cookie有两条脚本
+http-request ^https:\/\/act.10010.com\/SigninApp\/signin\/querySigninActivity.htm script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js
+http-request ^https:\/\/act.10010.com\/SigninApp(.*?)\/signin\/daySign script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js
+http-request ^https:\/\/m.client.10010.com\/dailylottery\/static\/(textdl\/userLogin|active\/findActivityInfo) script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js
+
+[MITM]
+hostname = %APPEND% api.m.jd.com, *.smzdm.com, act.10010.com, m.client.10010.com
