@@ -3,7 +3,8 @@
 #!system=ios
 
 [Script]
-京东签到Cookie = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+京东多合一签到 = type=cron,cronexp=5 0 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+获取京东Cookie = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 什么值得买签到Cookie = type=http-request,pattern=^https:\/\/www\.smzdm\.com\/?.?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.cookie.js
 中国联通签到Cookie = type=http-request,pattern=^https:\/\/act.10010.com\/SigninApp\/signin\/querySigninActivity.htm,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js
 中国联通签到Cookie = type=http-request,pattern=^https:\/\/act.10010.com\/SigninApp(.*?)\/signin\/daySign,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js
@@ -14,4 +15,4 @@ http-request ^https:\/\/act.10010.com\/SigninApp(.*?)\/signin\/daySign script-pa
 http-request ^https:\/\/m.client.10010.com\/dailylottery\/static\/(textdl\/userLogin|active\/findActivityInfo) script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js
 
 [MITM]
-hostname = %APPEND% -api.m.jd.com, -*.smzdm.com, act.10010.com, m.client.10010.com
+hostname = api.m.jd.com, *.smzdm.com, act.10010.com, m.client.10010.com
