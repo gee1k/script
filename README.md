@@ -2,7 +2,8 @@
 - 广告重写：https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Module/Block/Advertising.sgmodule
 - YouTube：https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Module/Block/YouTubeAds.sgmodule
 - BoxJS: https://raw.githubusercontent.com/chavyleung/scripts/master/surge.box.sgmodule
-
+- 神医去广告： https://raw.githubusercontent.com/L1cardo/Modules/master/Surge/RemoveAds.sgmodule
+- 神医解锁VIP：https://raw.githubusercontent.com/L1cardo/Modules/master/Surge/UnlockVip.sgmodule 
 
 ## BoxJS 订阅：
 - chavyleung应用订阅（什么值得买等等）： https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.json
