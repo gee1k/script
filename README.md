@@ -17,3 +17,7 @@
 - https://github.com/chavyleung/scripts/master
 - https://github.com/NobyDa/Script/master
 - https://github.com/lxk0301/scripts
+
+
+## 脚本
+查询✈️ 流量 = type=cron,cronexp=0 9 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/flow.js

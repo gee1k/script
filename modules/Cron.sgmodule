@@ -17,4 +17,3 @@
 天天加速 = type=cron, cronexp=8 */3 * * *, wake-system=1, timeout=20, script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_speed.js
 取关京东店铺商品 = type=cron,cronexp=55 23 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_unsubscribe.js
 彩云天气 = type=cron,cronexp=30 8-22/* * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js
-# 查询✈️ 流量 = type=cron,cronexp=0 9 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/flow.js
