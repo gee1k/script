@@ -14,10 +14,11 @@
 
 
 ## 脚本仓库
-- https://github.com/Peng-YM/QuanX/master
-- https://github.com/chavyleung/scripts/master
-- https://github.com/NobyDa/Script/master
+- https://github.com/Peng-YM/QuanX/tree/master
+- https://github.com/chavyleung/scripts/tree/master
+- https://github.com/NobyDa/Script/tree/master
 - https://github.com/lxk0301/scripts
+- https://github.com/chavyleung/scripts
 
 ## 脚本
 查询✈️ 流量 = type=cron,cronexp=0 9 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/flow.js
