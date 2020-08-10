@@ -8,6 +8,5 @@
 中国联通签到Cookie = type=http-request,pattern=^https:\/\/act.10010.com\/SigninApp\/signin\/querySigninActivity.htm,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js, script-update-interval=0
 中国联通签到Cookie = type=http-request,pattern=^https:\/\/act.10010.com\/SigninApp(.*?)\/signin\/daySign,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js, script-update-interval=0
 中国联通签到Cookie = type=http-request,pattern=^https:\/\/m.client.10010.com\/dailylottery\/static\/(textdl\/userLogin|active\/findActivityInfo),script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js, script-update-interval=0
-饿了么Cookie = type=http-request,pattern=^https:\/\/h5\.ele\.me\/restapi\/eus\/v\d\/current_user$,script-path=https://raw.githubusercontent.com/songyangzz/QxScripts/master/elem/elemGetCookies.js, script-update-interval=0
 [MITM]
-hostname = %APPEND% api.m.jd.com, *.smzdm.com, act.10010.com, m.client.10010.com, h5.ele.me
+hostname = %APPEND% api.m.jd.com, *.smzdm.com, act.10010.com, m.client.10010.com

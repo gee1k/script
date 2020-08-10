@@ -11,7 +11,6 @@
 - NobyDa脚本订阅（京东签到等）： https://raw.githubusercontent.com/NobyDa/Script/master/NobyDa_BoxJs.json
 - Peng-YM 应用订阅: https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/box.js.json
 - evilbutcher 应用订阅: https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/evilbutcher.boxjs.json
-- syzzzf应用订阅: https://raw.githubusercontent.com/songyangzz/QuantumultX/master/syzzzf.box.json
 
 ## 脚本仓库
 - https://github.com/Peng-YM/QuanX/tree/master
