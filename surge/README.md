@@ -4,6 +4,11 @@
 - BoxJS: https://raw.githubusercontent.com/chavyleung/scripts/master/surge.box.sgmodule
 - 神医去广告： https://raw.githubusercontent.com/L1cardo/Modules/master/Surge/RemoveAds.sgmodule
 - 神医解锁VIP：https://raw.githubusercontent.com/L1cardo/Modules/master/Surge/UnlockVip.sgmodule 
+### TikTok
+- https://raw.githubusercontent.com/L1cardo/Modules/master/Surge/TikTok/TikTokUnlockJP.sgmodule
+- https://raw.githubusercontent.com/L1cardo/Modules/master/Surge/TikTok/TikTokUnlockKR.sgmodule
+- https://raw.githubusercontent.com/L1cardo/Modules/master/Surge/TikTok/TikTokUnlockUK.sgmodule
+- https://raw.githubusercontent.com/L1cardo/Modules/master/Surge/TikTok/TikTokUnlockUS.sgmodule
 
 ## BoxJS 订阅：
 - chavyleung应用订阅（什么值得买等等）： https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.json
