@@ -6,6 +6,7 @@
 - 神医解锁VIP：https://raw.githubusercontent.com/L1cardo/Modules/master/Surge/UnlockVip.sgmodule 
 
 ## BoxJS 订阅：
+https://chavyleung.gitbook.io/boxjs/
 - chavyleung应用订阅（什么值得买等等）： https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.json
 - lxk0301脚本订阅（京东农场等等）： https://gitee.com/lxk0301/scripts/raw/master/lxk0301.boxjs.json
 - NobyDa脚本订阅（京东签到等）： https://raw.githubusercontent.com/NobyDa/Script/master/NobyDa_BoxJs.json

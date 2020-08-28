@@ -1,9 +1,14 @@
 ## Modules
 - 广告重写：https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Module/Block/Advertising.sgmodule
 - YouTube：https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Module/Block/YouTubeAds.sgmodule
-- BoxJS: https://raw.githubusercontent.com/chavyleung/scripts/master/surge.box.sgmodule
 - 神医去广告： https://raw.githubusercontent.com/L1cardo/Modules/master/Surge/RemoveAds.sgmodule
 - 神医解锁VIP：https://raw.githubusercontent.com/L1cardo/Modules/master/Surge/UnlockVip.sgmodule 
+# Surge 商店版 (AppStore)
+  https://gitee.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.surge.sgmodule
+# Surge 测试版 (TestFlight)
+  https://gitee.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.surge.tf.sgmodule
+
+
 ### TikTok
 - https://raw.githubusercontent.com/L1cardo/Modules/master/Surge/TikTok/TikTokUnlockJP.sgmodule
 - https://raw.githubusercontent.com/L1cardo/Modules/master/Surge/TikTok/TikTokUnlockKR.sgmodule
