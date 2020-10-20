@@ -3,6 +3,10 @@
 - YouTube：https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Module/Block/YouTubeAds.sgmodule
 - 神医去广告： https://raw.githubusercontent.com/L1cardo/Modules/master/Surge/RemoveAds.sgmodule
 - 神医解锁VIP：https://raw.githubusercontent.com/L1cardo/Modules/master/Surge/UnlockVip.sgmodule 
+- 什么值得买： https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_checkin.sgmodule
+- 联通营业厅：https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_checkin.sgmodule
+- 美团签到：https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/meituan/meituan_checkin.sgmodule
+- 知乎去广告：https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.sgmodule
 # Surge 商店版 (AppStore)
   https://gitee.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.surge.sgmodule
 # Surge 测试版 (TestFlight)
