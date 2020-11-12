@@ -1,5 +1,5 @@
-#!name=获取 Cookie、定位等. By Svend
-#!desc=该模块适用于定时签到脚本的Cookie获取, 您可以在使用后手动将其禁用，以免产生不必要的MITM.
+#!name=获取 Cookie. By Svend
+#!desc=最后更新时间：2020-11-12 23:25:00
 #!system=ios
 
 [Script]
