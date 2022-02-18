@@ -1,0 +1,9 @@
+#!name=解锁酷我音乐会员. By Svend
+#!desc=解锁酷我音乐会员➕听书
+#!system=ios
+
+[Script]
+解锁酷我音乐会员 = type=http-request,requires-body=1,pattern=^http://(.+).kuwo.cn(/v2/api/user/info|/a.p|/vip/v2/user/vip),script-path=https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyy.js
+
+[MITM]
+hostname = %APPEND% *.kuwo.cn
