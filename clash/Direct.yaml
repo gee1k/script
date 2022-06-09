@@ -1,0 +1,4 @@
+# NAME: 自定义直连
+payload:
+  - DOMAIN,api.sourbell.im
+  - DOMAIN,404.sb
