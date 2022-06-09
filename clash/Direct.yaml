@@ -1,4 +1,5 @@
 # NAME: 自定义直连
 payload:
   - DOMAIN,api.sourbell.im
+  - DOMAIN-SUFFIX,accurofitapp.net
   - DOMAIN-SUFFIX,404.sb
