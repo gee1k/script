@@ -1,0 +1,5 @@
+#!name=自定义DNS
+#!desc=启用自定义DNS
+
+[General]
+dns-server = 119.29.29.29, system
