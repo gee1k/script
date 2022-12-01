@@ -1,0 +1,16 @@
+# NAME: Emby公益服等需要代理的影视
+payload:
+  # YYT jellyfin
+  - IP-CIDR,216.158.239.27/32,no-resolve
+  # YYT Emby
+  - DOMAIN-SUFFIX,emby.missuo.me
+  # 💫Misty Emby
+  - DOMAIN-SUFFIX,aaa.ax
+  # MisakaF 
+  - DOMAIN-SUFFIX,cf2.misakaf.org
+  # EmbyX 
+  - DOMAIN-SUFFIX,embyx.one
+  # 卷毛鼠 
+  - DOMAIN-SUFFIX,jmsooo.com
+  # 垃圾影视 
+  - DOMAIN-SUFFIX,cf.emby.ml
