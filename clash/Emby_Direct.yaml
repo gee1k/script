@@ -5,4 +5,4 @@ payload:
   # 大鸟转转酒吧
   - DOMAIN-SUFFIX,emby.o9o.nl
   - DOMAIN-SUFFIX,ddnsjp.titams.xyz
-  - IP-CIDE,103.135.249.87/32,no-resolve
+  - IP-CIDR,103.135.249.87/32,no-resolve
