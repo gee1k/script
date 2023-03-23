@@ -1,8 +1,0 @@
-#!name=京东价格返利. By Svend. Thanks Tartarus2014
-#!desc=需要获取京东CK才可正常使用
-
-[MITM]
-hostname = %APPEND% api.m.jd.com
-
-[Script]
-京粉转链 = type=http-response,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/jdjf_price.js,script-update-interval=0

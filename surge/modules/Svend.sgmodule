@@ -1,9 +1,0 @@
-#!name=自用模块. By Svend
-#!desc=乱七八糟的东西
-#!system=ios
-
-[Script]
-http-response http://j7700.opscnc.com/api/public/(.+)service=Live.checkLive requires-body=true, script-path=https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/TATA.js, tag=TATA直播🔓
-
-[MITM]
-hostname = %APPEND% j7700.opscnc.com

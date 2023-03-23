@@ -1,7 +1,0 @@
-# Emby公益服等需要直连的影视
-# 垃圾影视
-DOMAIN-SUFFIX,11.loseremby.org
-# 大鸟转转酒吧
-DOMAIN-SUFFIX,emby.o9o.nl
-DOMAIN-SUFFIX,ddnsjp.titams.xyz
-IP-CIDR,103.135.249.87/32,no-resolve
