@@ -1,11 +1,5 @@
 # NAME: Emby 公益服规则
 
-# 💫Misty Emby
-DOMAIN-SUFFIX,misty.ltd
-# MisakaF
-DOMAIN-SUFFIX,cf2.misakaf.org
-# MisakaF 自有CDN，三网加速
-DOMAIN-SUFFIX,cdn.misakaf.org
 # EmbyX
 DOMAIN-SUFFIX,emby.speedx.one
 # 垃圾影视
@@ -13,3 +7,5 @@ DOMAIN-SUFFIX,cf.emby.ml
 DOMAIN-SUFFIX,11.loseremby.org
 # 莫高雷
 DOMAIN-SUFFIX,mulgore.net
+# 剧狗
+DOMAIN-SUFFIX,ju.dog
