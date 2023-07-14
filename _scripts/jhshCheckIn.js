@@ -32,16 +32,15 @@ function sign() {
     let subTitle = ''
     if (data) {
       const result = JSON.parse(data)
-      if (result.Code == 1) {
+      if (result.errMsg) {
+        subTitle = `签到结果: ${result.errMsg}`
+      } else {
         subTitle = `签到结果: 签到成功`
-
-      } else if (result.Code == 0) {
-        subTitle = `签到结果: ${result.Message}`
       }
     } else {
       subTitle = `签到结果: 签到失败`
     }
-    utils.notify(title, subTitle)
+    utils.notify(title, subTitle, '')
     utils.done()
   })
 }
