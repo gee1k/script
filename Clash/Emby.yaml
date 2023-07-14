@@ -1,9 +1,0 @@
-# NAME: Emby 公益服规则
-payload:
-  - DOMAIN-SUFFIX,misty.ltd
-  - DOMAIN-SUFFIX,cf2.misakaf.org
-  - DOMAIN-SUFFIX,cdn.misakaf.org
-  - DOMAIN-SUFFIX,emby.speedx.one
-  - DOMAIN-SUFFIX,cf.emby.ml
-  - DOMAIN-SUFFIX,11.loseremby.org
-  - DOMAIN-SUFFIX,mulgore.net
