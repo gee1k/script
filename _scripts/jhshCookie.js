@@ -15,12 +15,13 @@ if ($request && $request.method !== 'OPTIONS') {
   console.log(`${cookieName}, signUrlVal: ${signUrlVal}`)
   console.log(`${cookieName}, signHeaderVal: ${signHeaderVal}`)
   console.log(`${cookieName}, signBodyVal: ${signBodyVal}`)
-  
+
   if (signUrlVal && signHeaderVal && signBodyVal) {
     utils.notify(cookieName, `获取Cookie: 成功`, ``);
   } else {
     utils.notify(cookieName, `获取Cookie: 失败`, ``);
   }
+  utils.done();
 }
 
 /**

@@ -17,6 +17,7 @@ sign()
 function sign() {
   if (!signUrlVal || !signHeaderVal || !signBodyVal) {
     utils.notify(cookieName, `签到结果: 失败`, `原因: 请先获取Cookie`);
+    utils.done()
     return
   }
   const options = {
