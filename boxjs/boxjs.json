@@ -1,0 +1,62 @@
+{
+  "id": "svend.sub",
+  "name": "Svend 自用 BoxJS订阅",
+  "author": "@fmz200",
+  "icon": "https://avatars.githubusercontent.com/u/12059800?s=60&v=4",
+  "repo": "https://github.com/gee1k/script",
+  "apps": [
+    {
+      "id": "jhsh_checkin",
+      "name": "建行生活签到",
+      "keys": [
+        "utils_sign_url_jhsh",
+        "utils_sign_header_jhsh",
+        "utils_sign_body_jhsh"
+      ],
+      "descs_html": [
+        "单账号签到"
+      ],
+      "settings": [
+        {
+          "id": "utils_sign_url_jhsh",
+          "name": "签到的url",
+          "val": "",
+          "desc": "",
+          "type": "textarea",
+          "autoGrow": false,
+          "rows": 4
+        },
+        {
+          "id": "utils_sign_header_jhsh",
+          "name": "签到的header",
+          "val": "",
+          "desc": "",
+          "type": "textarea",
+          "autoGrow": false,
+          "rows": 4
+        },
+        {
+          "id": "utils_sign_body_jhsh",
+          "name": "签到的Body",
+          "val": "",
+          "desc": "",
+          "type": "textarea",
+          "autoGrow": false,
+          "rows": 4
+        }
+      ],
+      "author": "@gee1k",
+      "repo": "https://github.com/gee1k/script",
+      "scripts": [
+        {
+          "name": "建行生活签到",
+          "script": "https://raw.githubusercontent.com/gee1k/script/master/_scripts/jhshCheckIn.js"
+        }
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ccbLife.jpg",
+        "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/ccbLife.jpg"
+      ]
+    }
+  ]
+}
